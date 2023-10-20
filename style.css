@@ -1,0 +1,28 @@
+article {
+  background-color: black;
+  color: white;
+  padding-top: 4%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 110px 110px 110px 110px;
+}
+.kep {
+  justify-content: center;
+  align-items: center;
+  border-style: ridge;
+}
+h1 {
+  color: green;
+}
+nav li a {
+  color: yellow;
+}
+li {
+  background-color: green;
+}
+ul {
+  padding: 0px;
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  list-style: none;
+}
